@@ -61,7 +61,7 @@ LabelD.grid(row = 9, column = 1)
 
 
 def izbor():
-    a = c.execute('SELECT *FROM filmovi WHERE zanr = "?"', (Var.get()))
+    a = c.execute('SELECT * FROM filmovi WHERE zanr = "'+ Var.get()+'"')
     #c.execute("SELECT * FROM filmovi WHERE zanr = 'Akcija'")
     podaci = c.fetchall()
 
