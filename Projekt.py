@@ -35,7 +35,7 @@ popUp.grid(row=2, column=1, pady = 15)
 
 
 
-Label1 = Label(mainFrame, text = "Unesite/kopirajte naslov željenog filma: "). grid(row = 4, column = 1, pady = 5)
+Label1 = Label(mainFrame, text = "Unesite naslov željenog filma: "). grid(row = 4, column = 1, pady = 5)
 polje1 = Entry(mainFrame)
 polje1.grid(row = 5, column = 1, padx=60, pady = 10, ipadx = 40)
 
